@@ -27,6 +27,9 @@ body {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
+.lead {
+  font-weight: 400;
+}
 
 /* Featurettes
 ------------------------- */
@@ -36,11 +39,6 @@ body {
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
-}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -51,15 +49,5 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
   }
 }
