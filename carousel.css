@@ -6,11 +6,50 @@ body {
   color: #5a5a5a;
 }
 
-/* .jumbotron {
-  background: url('https://www.familytreemagazine.com/wp-content/uploads/2019/04/magnifying-glass-genealogy-facts.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+.blue {
+  color: #a2bfc2;
+}
+
+.red {
+  color: #a4243b;
+}
+
+.orange {
+  color: rgb(204, 168, 118);
+}
+
+.black {
+  color: #414535;
+}
+
+.blue-bg {
+  background-color: #a2bfc2;
+  border-color: #a2bfc2;
+}
+
+.red-bg {
+  background-color: #a4243b;
+  border-color: #a4243b;
+}
+
+.orange-bg {
+  background-color: rgb(204, 168, 118);
+  border-color: rgb(204, 168, 118);
+}
+
+.black-bg {
+  background-color: #414535;
+  border-color: #414535;
+}
+
+.btn {
+  font-size: large;
+  font-weight: 600;
+}
+
+#firstRow {
+  margin-top: 6rem;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -35,7 +74,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
