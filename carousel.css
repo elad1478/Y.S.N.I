@@ -4,6 +4,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: 'Roboto', sans-serif;
 }
 
 .featurette-divider {
@@ -18,7 +19,7 @@ body {
 }
 
 .red {
-  color: #a4243b;
+  color: #cca876;
 }
 
 .orange {
@@ -51,7 +52,7 @@ body {
 
 .btn {
   font-size: large;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #firstRow {
@@ -63,6 +64,17 @@ body {
 }
 
 @media (max-width: 768px) {
+  .thirdRowPara {
+    min-height: 8rem;
+  }
+
+  .thirdRowHeading {
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    font-weight: 700;
+  }
+
   .navbar-collapse {
     position: fixed;
     top: 110px;
@@ -107,6 +119,10 @@ body {
   outline: none;
 }
 
+.firstHeading {
+  margin-top: 100px;
+}
+
 #opening-image {
   background-image: url('https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format');
   background-position: center;
@@ -116,6 +132,18 @@ body {
   display: block;
   margin-top: 65px;
   width: 100vw;
+}
+
+@media (min-width: 768px) {
+  .thirdRowPara {
+    min-height: 12rem;
+  }
+
+  .thirdRowHeading {
+    height: 5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
 }
 
 /* MARKETING CONTENT
