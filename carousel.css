@@ -2,9 +2,13 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+
   color: #5a5a5a;
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  height: 5rem;
 }
 
 .featurette-divider {
@@ -24,6 +28,14 @@ body {
 
 .black {
   color: #414535;
+}
+
+.white {
+  color: white;
+}
+
+.white:hover {
+  color: white;
 }
 
 .blue-bg {
@@ -131,6 +143,10 @@ body {
 }
 
 #mainHeading {
+  font-size: 2rem;
+}
+
+#ysni {
   font-size: 2.5rem;
 }
 
