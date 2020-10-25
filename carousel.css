@@ -7,6 +7,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.CEO-card {
+  max-width: 25rem;
+  margin: 15px auto;
+}
+
+.CEO-img {
+  max-width: 25rem;
+}
+
 footer {
   height: 5rem;
 }
