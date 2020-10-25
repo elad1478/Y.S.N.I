@@ -98,7 +98,7 @@ footer {
 
   .navbar-collapse {
     position: fixed;
-    top: 110px;
+    top: 70px;
     left: 0;
     padding-left: 15px;
     padding-right: 15px;
@@ -151,7 +151,7 @@ footer {
   background-repeat: no-repeat;
   height: 30vh;
   display: block;
-  margin-top: 65px;
+  margin-top: 25px;
   width: 100vw;
 }
 
