@@ -38,6 +38,10 @@ footer {
   color: white;
 }
 
+.white-bg {
+  background-color: white;
+}
+
 .blue-bg {
   background-color: #a2bfc2;
   border-color: #a2bfc2;
