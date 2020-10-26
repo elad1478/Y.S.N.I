@@ -7,13 +7,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.modalImg {
+  max-width: 100%;
+  height: auto;
+}
+
 .CEO-card {
   max-width: 25rem;
   margin: 15px auto;
 }
 
+.mobile-card {
+  max-width: 30rem;
+  margin: 15px auto;
+}
+
 .CEO-img {
   max-width: 25rem;
+}
+
+.mobile-img {
+  max-width: 45rem;
 }
 
 footer {
@@ -83,10 +97,24 @@ footer {
 .nav-link {
   font-size: 1.4rem;
 }
+@media (max-width: 992px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
 
 @media (max-width: 768px) {
   .thirdRowPara {
     min-height: 8rem;
+  }
+
+  .responsiveHeading {
+    font-size: 1.6rem;
+  }
+
+  #ysni {
+    font-size: 1.7rem;
+    font-weight: bold;
   }
 
   .thirdRowHeading {
@@ -155,21 +183,22 @@ footer {
   width: 100vw;
 }
 
-#mainHeading {
-  font-size: 2rem;
-}
-
-#ysni {
-  font-size: 2.5rem;
-}
-
 @media (min-width: 768px) {
+  #ysni {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .responsiveHeading {
+    font-size: 2.5rem;
+  }
+
   #brand {
     width: 200px;
   }
 
   .thirdRowPara {
-    min-height: 12rem;
+    min-height: 18rem;
+    margin-bottom: 0;
   }
 
   .thirdRowHeading {
@@ -182,6 +211,13 @@ footer {
 #accordionAboutUs {
   margin-bottom: 10rem;
   margin-top: 4rem;
+}
+
+@media (min-width: 992px) {
+  .thirdRowPara {
+    min-height: 14rem;
+    margin-bottom: 0;
+  }
 }
 
 /* MARKETING CONTENT
