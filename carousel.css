@@ -4,7 +4,7 @@ body {
   padding-top: 3rem;
 
   color: #5a5a5a;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contactFooter {
@@ -180,7 +180,7 @@ footer {
 }
 
 #opening-image {
-  background-image: url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format");
+  background-image: url('./assets/Title.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -191,6 +191,9 @@ footer {
 }
 
 @media (min-width: 768px) {
+  #opening-image {
+    height: 50vh;
+  }
   #ysni {
     font-size: 2.5rem;
     font-weight: bold;
