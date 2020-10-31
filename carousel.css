@@ -15,10 +15,20 @@ body {
 }
 
 .bigger-text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .modalImg {
+  max-width: 35rem;
+  height: auto;
+}
+
+.modalImg:hover {
+  border: 10px;
+  opacity: 0.9;
+}
+
+.modalImgOpen {
   max-width: 100%;
   height: auto;
 }
@@ -29,7 +39,7 @@ body {
 }
 
 .mobile-card {
-  max-width: 30rem;
+  max-width: 35rem;
   margin: 15px auto;
 }
 
@@ -108,6 +118,11 @@ footer {
 .nav-link {
   font-size: 1.2rem;
 }
+
+.nav-link:hover {
+  font-size: 1.25rem;
+}
+
 @media (max-width: 992px) {
   .modal-dialog {
     max-width: 90%;
@@ -160,7 +175,7 @@ footer {
   }
 
   .responsiveHeading {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ysni {
