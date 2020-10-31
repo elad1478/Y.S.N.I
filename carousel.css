@@ -181,7 +181,7 @@ footer {
 
 #opening-image {
   background-image: url('./assets/Title_2.jpg');
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 30vh;
