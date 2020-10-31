@@ -181,9 +181,10 @@ footer {
 
 #opening-image {
   background-image: url('./assets/Title_2.jpg');
-  background-position: top;
+  background-position: 50% 6%;
   background-size: cover;
   background-repeat: no-repeat;
+
   height: 30vh;
   display: block;
   margin-top: 25px;
@@ -192,7 +193,7 @@ footer {
 
 @media (min-width: 768px) {
   #opening-image {
-    height: 40vh;
+    height: 43vh;
   }
   #ysni {
     font-size: 2.5rem;
