@@ -50,21 +50,22 @@
           </nav>
   
 </header>
-<main role="main " class="container article mt-5  px-4">
-    <h2 class="firstHeading text-center responsiveHeading">About Us</h2>
-    <div class="accordion " id="accordionAboutUs">
+<main role="main " class="container article my-5  px-4">
+    <h2 id="mainHeading" class="firstHeading text-center responsiveHeading">About Us</h2>
+    
+      <div id="accordion">
         <div class="card">
           <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 About Y.S.N.I
               </button>
-            </h2>
+            </h5>
           </div>
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionAboutUs">
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-               <p>Attorney Michael Goldstein began his professional career at the start of the 1980s when he was asked by the
+              <p>Attorney Michael Goldstein began his professional career at the start of the 1980s when he was asked by the
                 Administrator General and the Official receiver in the Ministry of Justice to coordinate preparation of companies involved
                 in the purchase and sale of land in the thirties — for the purpose of liquidation. The difficulty faced by the authorities was
                 that contact with thousands of applicants regarding purchase of the land was severed due to the event of the Second
@@ -87,15 +88,15 @@
         </div>
         <div class="card">
           <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                About the CEO Advocate Michael Goldshtein
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                About the CEO Advocate Michael Goldstein
               </button>
-            </h2>
+            </h5>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionAboutUs">
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              <div class="row">
+              <div class="row-lg-6">
                 <div class="col-lg-6">
                   <p>Advocate Michael Goldstein, graduate of the Faculty of Law, the Hebrew University of
                     Jerusalem and licensed to practice law in Israel for more than 35 years, began his
@@ -113,18 +114,15 @@
                 </div>
                 
                 <div class="col-lg-6">
-                <div class="card CEO-card " >
-                  <img class="card-img-top CEO-image" src="./assets/Micheal.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">CEO Advocate Michael Goldshtein.</p>
+                  <div class="card CEO-card " >
+                    <img class="card-img-top CEO-image" src="./assets/Micheal.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">CEO Advocate Michael Goldstein.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-                
-                    
-                
-                
+              <div class="row-lg-6">
                 <p>Subsequent to the work carried out over the years and which was led by Advocate Michael
                   Goldstein (who for this purpose acted as special representative of the Official Receiver and
                   Custodian General), all the assets of the company were concentrated (real estate worth over
@@ -200,13 +198,15 @@
                 <p class="font-weight-bold">The files handled by the Company are managed directly and personally by Advocate
                     Michael Goldstein, thus ensuring that their treatment is professional, reliable and
                     dedicated.</p>
-
+              </div>
+            
             </div>
           </div>
         </div>
-        
+
       </div>
-    
+        </div>
+      </div>
 
   <!-- FOOTER -->
   
@@ -218,6 +218,7 @@
   </div>
   
 </footer>
+<script src="./scrollScript.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </html>
