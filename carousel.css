@@ -202,7 +202,7 @@ footer {
   margin-top: 100px;
 }
 
-#opening-image {
+.opening-image {
   background-image: url('./assets/Title_2.jpg');
   background-position: 50% 6%;
   background-size: cover;
@@ -214,8 +214,12 @@ footer {
   width: 100vw;
 }
 
+.opening-image-modal:hover {
+  background-size: 100.3%;
+}
+
 @media (min-width: 768px) {
-  #opening-image {
+  .opening-image {
     height: 43vh;
   }
   #ysni {
