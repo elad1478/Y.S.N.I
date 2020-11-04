@@ -2,10 +2,9 @@
 
 body {
   padding-top: 3rem;
-
   color: #5a5a5a;
   font-family: "Roboto", sans-serif;
-  background-color: #fcfcfc;
+  background-color: rgb(255, 255, 255);
 }
 
 #contactFooter {
@@ -13,6 +12,11 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.btnHighlight {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .bigger-text {
@@ -72,7 +76,7 @@ footer {
 }
 
 .orange {
-  color: rgb(204, 168, 118);
+  color: rgb(204, 162, 102);
 }
 
 .black {
@@ -102,8 +106,8 @@ footer {
 }
 
 .orange-bg {
-  background-color: rgb(204, 168, 118);
-  border-color: rgb(204, 168, 118);
+  background-color: rgb(204, 162, 102);
+  border-color: rgb(204, 162, 102);
 }
 
 .black-bg {
@@ -213,11 +217,9 @@ footer {
   background-position: 50% 6%;
   background-size: cover;
   background-repeat: no-repeat;
-
   height: 30vh;
   display: block;
   margin-top: 25px;
-  width: 100vw;
 }
 
 .opening-image-modal:hover {
