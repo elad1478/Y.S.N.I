@@ -19,6 +19,10 @@ body {
   font-size: 1.2rem;
 }
 
+#aboutMain {
+  min-height: 75vh;
+}
+
 .modalImg {
   max-width: 35rem;
   height: auto;
