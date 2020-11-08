@@ -4,8 +4,8 @@ body {
   padding-top: 3rem;
   color: #2b3128;
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(245, 250, 240);
-  /* background-color: rgb(249, 255, 241); */
+
+  background-color: rgb(249, 255, 241);
 }
 
 #collapseOne {
@@ -222,7 +222,7 @@ footer {
 }
 
 .opening-image {
-  background-image: url('./assets/Title_2.jpg');
+  background-image: url('./assets/Title_3.jpg');
   background-position: 50% 6%;
   background-size: cover;
   background-repeat: no-repeat;
