@@ -7,3 +7,8 @@ $('.collapse').on('shown.bs.collapse', function (e) {
     500
   );
 });
+
+function oldScroll() {
+  var card = document.getElementById('mainHeading');
+  card.scrollIntoView();
+}
