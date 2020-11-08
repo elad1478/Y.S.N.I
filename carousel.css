@@ -5,15 +5,15 @@ body {
   color: #2b3128;
   font-family: 'Roboto', sans-serif;
 
-  background-color: rgb(249, 255, 241);
+  background-color: rgb(248, 251, 243);
 }
 
 #collapseOne {
-  background-color: rgb(239, 241, 234);
+  background-color: rgb(247, 248, 245);
 }
 
 #collapseTwo {
-  background-color: rgb(239, 241, 234);
+  background-color: rgb(247, 248, 245);
 }
 
 #contactFooter {
@@ -85,7 +85,7 @@ footer {
 }
 
 .orange {
-  color: rgb(109, 83, 50);
+  color: rgb(134, 101, 58);
 }
 
 .black {
@@ -115,8 +115,8 @@ footer {
 }
 
 .orange-bg {
-  background-color: rgb(109, 83, 50);
-  border-color: rgb(109, 83, 50);
+  background-color: rgb(134, 101, 58);
+  border-color: rgb(134, 101, 58);
 }
 
 .black-bg {
