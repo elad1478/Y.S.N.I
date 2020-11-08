@@ -2,9 +2,18 @@
 
 body {
   padding-top: 3rem;
-  color: #5a5a5a;
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(255, 255, 255);
+  color: #2b3128;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(243, 250, 236);
+  /* background-color: rgb(249, 255, 241); */
+}
+
+#collapseOne {
+  background-color: rgb(244, 246, 241);
+}
+
+#collapseTwo {
+  background-color: rgb(244, 246, 241);
 }
 
 #contactFooter {
@@ -76,11 +85,11 @@ footer {
 }
 
 .orange {
-  color: rgb(204, 162, 102);
+  color: rgb(109, 83, 50);
 }
 
 .black {
-  color: #414535;
+  color: #1a1b18;
 }
 
 .white {
@@ -106,8 +115,8 @@ footer {
 }
 
 .orange-bg {
-  background-color: rgb(204, 162, 102);
-  border-color: rgb(204, 162, 102);
+  background-color: rgb(109, 83, 50);
+  border-color: rgb(109, 83, 50);
 }
 
 .black-bg {
@@ -213,7 +222,7 @@ footer {
 }
 
 .opening-image {
-  background-image: url("./assets/Title_2.jpg");
+  background-image: url('./assets/Title_2.jpg');
   background-position: 50% 6%;
   background-size: cover;
   background-repeat: no-repeat;
